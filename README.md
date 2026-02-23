@@ -271,9 +271,10 @@ If answers feel cut off or lack context, increase `CHUNK_SIZE` in `config.py`. I
 ```python
 CHUNK_SIZE = 1500    # larger chunks = more context per retrieved piece
 CHUNK_OVERLAP = 200  # larger overlap = less chance of missing cross-boundary info
+```
 ---
 
-## Tech Stack
+**Tech Stack**
 
 | Component | Library / Tool |
 |---|---|
